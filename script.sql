@@ -1,5 +1,6 @@
 create table tbTickets (
 numero_ticket number(10) primary key,
+uuid varchar2(50),
 titulo_ticket varchar2(50) not null,
 descripcion_ticket varchar2(200) not null,
 autor_ticket varchar2(40) not null,
