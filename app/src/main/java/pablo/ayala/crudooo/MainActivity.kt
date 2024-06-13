@@ -52,10 +52,10 @@ class MainActivity : AppCompatActivity() {
                 addTicket.setString(4, txtDec.text.toString())
                 addTicket.setString(5, txtAut.text.toString())
                 addTicket.setString(6, txtMail.text.toString())
-                /* addTicket.setDate(7, dateCreated.text.to)
-                addTicket.setDate(8, txtStatus.text.to(Date()) */
-
-
+                addTicket.setString(7, dateCreated.text.toString())
+                addTicket.setString(8, txtStatus.text.toString())
+                addTicket.setString(9, dateFinished.text.toString())
+                addTicket.executeUpdate()
             }
         }
     }
