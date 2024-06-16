@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".detalle_ticket">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="25dp"
+        android:text="Toda la información del ticket"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtUUIDDetalle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtUUIDDetalle"
+        android:layout_width="263dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="21dp"
+        android:text="TextView"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtNumeroDetalle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/txtNumeroDetalle"
+        android:layout_width="263dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="20dp"
+        android:text="TextView"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtTituloDetalle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtUUIDDetalle" />
+
+    <TextView
+        android:id="@+id/txtTituloDetalle"
+        android:layout_width="263dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="21dp"
+        android:text="TextView"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtDescDetalle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNumeroDetalle" />
+
+    <TextView
+        android:id="@+id/txtDescDetalle"
+        android:layout_width="263dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="23dp"
+        android:text="TextView"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtAutorDetalle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTituloDetalle" />
+
+    <TextView
+        android:id="@+id/txtAutorDetalle"
+        android:layout_width="263dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="23dp"
+        android:text="TextView"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtCreacionFechaDetalle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDescDetalle" />
+
+    <TextView
+        android:id="@+id/txtEmailDetalle"
+        android:layout_width="263dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="22dp"
+        android:text="TextView"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtEstadoDetalle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCreacionFechaDetalle" />
+
+    <TextView
+        android:id="@+id/txtCreacionFechaDetalle"
+        android:layout_width="263dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="22dp"
+        android:text="TextView"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtEmailDetalle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAutorDetalle" />
+
+    <TextView
+        android:id="@+id/txtEstadoDetalle"
+        android:layout_width="263dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="21dp"
+        android:text="TextView"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtFinalizacionFechaDetalle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtEmailDetalle" />
+
+    <TextView
+        android:id="@+id/txtFinalizacionFechaDetalle"
+        android:layout_width="263dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="91dp"
+        android:text="TextView"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtEstadoDetalle" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

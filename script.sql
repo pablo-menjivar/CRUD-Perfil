@@ -10,4 +10,4 @@ estado_ticket varchar(20) check (estado_ticket in ('Activo', 'Finalizado')) not 
 finalizacion_ticket varchar2(100) not null
 )
 
-drop table tbTickets;
+select * from tbTickets;
