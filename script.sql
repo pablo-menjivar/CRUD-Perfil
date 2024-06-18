@@ -10,4 +10,11 @@ estado_ticket varchar(20) check (estado_ticket in ('Activo', 'Finalizado')) not 
 finalizacion_ticket varchar2(100) not null
 )
 
+CREATE TABLE tbUsuarios(
+UUID_usuario VARCHAR2(50),
+correoElectronico VARCHAR2(50),
+clave VARCHAR2(50)
+)
+
+select * from tbUsuarios;
 select * from tbTickets;

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:backgroundTint="#CD3333"
+    tools:context=".registrarse">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crear Cuenta"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <ImageView
+        android:id="@+id/imgBack"
+        android:layout_width="56dp"
+        android:layout_height="61dp"
+        app:srcCompat="@drawable/baseline_keyboard_backspace_24"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <EditText
+        android:id="@+id/txtEmail1"
+        android:layout_width="251dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:hint="Correo Electrónico:"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="214dp" />
+
+    <EditText
+        android:id="@+id/txtConfContr"
+        android:layout_width="261dp"
+        android:layout_height="58dp"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="417dp" />
+
+    <EditText
+        android:id="@+id/txtContr"
+        android:layout_width="265dp"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:hint="Confirmar contraseña"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="323dp" />
+
+    <ImageView
+        android:id="@+id/imgVer1"
+        android:layout_width="75dp"
+        android:layout_height="57dp"
+        app:srcCompat="@drawable/baseline_remove_red_eye_24"
+        tools:layout_editor_absoluteX="324dp"
+        tools:layout_editor_absoluteY="323dp" />
+
+    <ImageView
+        android:id="@+id/imgVer2"
+        android:layout_width="72dp"
+        android:layout_height="58dp"
+        app:srcCompat="@drawable/baseline_remove_red_eye_24"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="417dp" />
+
+    <Button
+        android:id="@+id/btnCreate"
+        android:layout_width="293dp"
+        android:layout_height="0dp"
+        android:text="Crear cuenta"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="523dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Ya tienes cuenta?"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="606dp" />
+
+    <Button
+        android:id="@+id/btnLogear"
+        android:layout_width="303dp"
+        android:layout_height="49dp"
+        android:text="Iniciar sesión"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="666dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
